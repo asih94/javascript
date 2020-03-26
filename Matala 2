@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+    // q1
+
+var num = Number (prompt("Enter Number: "));;
+
+if (num > 928 || num < 532 )
+    console.log(num);
+
+
+    //q2
+
+    var num1 = Number (prompt("Enter Number 1: "));;
+    var num2 = Number (prompt("Enter Number 2: "));;
+    var num3 = Number (prompt("Enter Number 3: "));;
+
+    if (num1 < num2 && num2 < num3 )
+    console.log("Increasing");
+
+
+    //q3
+
+    var number1 = Number (prompt("Enter Number 1: "));;
+    var number2 = Number (prompt("Enter Number 2: "));;
+
+    if (number1 < number2  )
+    console.log("Growing");
+
+
+    //q4
+
+    var number = Number (prompt("Enter Number: "));;
+
+    if (number%2==0)
+        console.log("Even");
+    else
+    console.log("Odd");
+
+
+    //q5
+
+    var x = Number (prompt("Enter Number 1: "));;
+    var y = Number (prompt("Enter Number 2: "));;
+
+    if (x>y) {
+        alert(y);
+        alert (x);
+    }
+    else {
+        alert(x);
+        alert (y);
+    }
+
+    
+    //q6
+
+    var z = Number (prompt("Enter Number: "));;
+
+    if (z>0)
+        alert ("Positive");
+    else if (z<0)
+        alert ("Negative");
+    else
+    alert ("0");
+
+
+
+  
+
+
+
+    
+    
+
+    
+
+
+
+    </script>
+    
+</body>
+</html>
