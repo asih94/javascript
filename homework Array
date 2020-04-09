@@ -23,6 +23,7 @@
 
         var small = arr[0];
         var big = arr[0];
+        
         var sum = 0;
         
         for (var i = 0; i < arr.length; i++)
@@ -50,14 +51,15 @@
 
         for (var j = 0; j < arr.length; j++){
             if (arr[j] % 2 == 0)
-            arrOdd[j] = arr[j];
+            arrEven[j] = arr[j];
 
             else {
-                arrEven[j] = arr[j];
+                arrOdd[j] = arr[j];
             }
         }
-            console.log(arrOdd);
-            console.log(arrEven);
+
+            console.log("The even numbers in the array is:", arrEven);
+            console.log("The odd numbers in the array is:", arrOdd);
 
 
 
