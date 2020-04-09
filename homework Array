@@ -75,7 +75,7 @@
                 secnum  = arr[i];    
          } 
 
-         console.log("The secong bigest number is:", secnum);
+         console.log("The secong largest number is:", secnum);
 
 
 
