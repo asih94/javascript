@@ -76,7 +76,6 @@
          } 
 
          console.log("The secong bigest number is:", secnum);
-         console.log("The bigest number is:", bignum);
 
 
 
